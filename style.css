@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-inventrom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+
+    height: 60px;
+
+}
+
+.nav-logo {
+    margin-top: 15px;
+    margin-left: 10%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+    justify-content: center;
+    margin-right: 40%;
+
+}
+
+ul li {
+    padding: 0px 30px;
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+
+}
+ul li a:hover,a:active{
+    color:rgb(124, 64, 64);
+    text-decoration: underline;
+}
+
+.container {
+    background: url('about/background-layer.png');
+
+    height: 100vh;
+    width: 100%;
+}
+
+.content {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20%;
+    font-variant: small-caps;
+    text-shadow: 10px 10px 8px black;
+
+
+}
+.about-container{
+    height: 80vh;
+    padding-top: 20px;
+   
+}
+
+
+#about-content {
+    text-align: center;
+}
+
+#about-para {
+    text-align: center;
+}
+
+.cards {
+    position: absolute;
+    display: flex;
+}
+
+.card1 {
+    margin: 20px 0;
+    margin-left: 50%;
+    width: 270px;
+}
+
+.card2 {
+    margin: 20px 60%;
+    width: 270px;
+
+}
+
+.card1 img {
+    height: 270px;
+    width: 270px;
+
+}
+
+
+
+.card2 img {
+    height: 270px;
+    width: 270px;
+
+
+}
+
+.card1 h3 {
+    text-align: center;
+}
+
+.card2 h3 {
+    text-align: center;
+}
+#award-contact{
+    background-color:  rgb(172, 207, 230);
+}
+
+
+.award-section h1{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.award-img{
+    display: flex;
+    margin: 0 13%;
+}
+
+
+.img img{
+    height: 250px;
+    width: 250px;
+}
+.award-img h3{
+    text-align: center;
+}
+
+.award-content{
+    text-align: center;
+}
+.form-head{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-fill{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form-contact{
+    display: flex;
+}
+.contact{
+    width: 700px;
+}
+.location{
+    text-align: center;
+}
+.mumbai{
+    padding-top: 30px;
+    text-align: center;
+}
+.mumbai-contact{
+    padding-top: 30px;
+}
+.goa{
+    padding-top: 30px;
+    text-align: center;
+}
+.goa-contact{
+    padding-top: 30px;
+}
+.contact-info{
+    text-align: center;
+    margin-top: 30px;
+}
+.location-logo{
+    display: flex;
+    margin-top: 60px;
+}
+.location-logo img{
+    height: 20px;
+    width: 20px;
+    border: 2px solid blACK;
+    border-radius: 50%;
+    margin-top: 0px;
+    
+    
+}
+
+.location-logo span{
+    padding-left: 20px;
+}
+.call-logo{
+    display: flex;
+    margin-top: 40px;
+    
+
+}
+.call-logo img{
+    height: 20px;
+    width: 20px;
+    border: 2px solid blACK;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+.call-logo span{
+    padding-left: 20px;
+}
+.mail-logo {
+    display: flex;
+    margin-top: 40px;
+
+}
+.mail-logo img{
+    height: 20px;
+    width: 20px;
+    border: 2px solid blACK;
+    border-radius: 50%;
+    margin-top: 0px;
+    
+}
+.mail-logo span{
+    padding-left: 20px;
+}
+.footer-info{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(60, 168, 87);
+    display: flex;
+
+}
+.copyright-sec{
+    padding:27px 30px;
+}
+.fti-logo{
+    display: flex;
+    padding-top: 22px;
+}
+.instagram{
+    padding-left: 35vw;
+}
+ .instagram img{
+    height: 25px;
+    width: 25px;
+    
+ }
+ .twitter{
+    padding-left: 10px;
+ }
+ .twitter img{
+    height: 25px;
+    width: 25px;
+    
+ }
+ .facebook{
+    padding-left: 10px;
+ }
+ .facebook img{
+    height: 25px;
+    width: 25px;
+    
+    
+
+ }
